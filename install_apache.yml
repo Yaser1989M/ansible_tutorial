@@ -1,0 +1,9 @@
+---
+
+- hosts: all
+  become: ture
+  tasks:
+
+  - name: install apache2 package
+    apt:
+      name: apache2
